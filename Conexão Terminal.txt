@@ -1,0 +1,11 @@
+No terminal coloquecpara compilar:
+javac -cp ".;mysql-connector-j-9.0.7.jar" Connection.java
+Para rodar:
+java -cp ".;mysql-connector-j-x.x.x.jar" Connection
+
+ou
+javac -classpath mysql-connector-j-9.0.7.jar Connection.java para compilar
+e
+javac -classpath .:mysql-connector-j-9.0.7.jar Connection para rodar
+
+Se não quiseres escrever o comando longo sempre que testares:Cria uma pasta fixa (ex: C:\java_libs).Copia o .jar para lá.Pesquisa no Windows por "Variáveis de Ambiente".Edita a variável CLASSPATH (ou cria uma nova) e adiciona o caminho: .;C:\java_libs\mysql-connector-j-x.x.x.jar.
