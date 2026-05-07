@@ -1,4 +1,4 @@
-No terminal coloquecpara compilar:
+No terminal coloque para compilar:
 javac -cp ".;mysql-connector-j-9.0.7.jar" Connection.java
 Para rodar:
 java -cp ".;mysql-connector-j-x.x.x.jar" Connection
